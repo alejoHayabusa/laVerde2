@@ -1,0 +1,34 @@
+$principal: #546429;
+$secundario: #e2e2df;
+
+body {
+    background-color: #F4F4EC;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+    color: $principal !important;
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: darken($principal, 15%) !important;
+}
+.active {
+    color: darken($principal, 20%) !important;
+}
+.bg-secondary {
+    background-color: $secundario !important;
+}
+.blogs:hover {
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: $principal !important;
+    color: white !important;
+    border: 1px solid $principal;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: darken($principal, 15%);
+    border-color: $principal;
+    box-shadow: 1px 1px 10px lighten($principal, 15%);
+}
