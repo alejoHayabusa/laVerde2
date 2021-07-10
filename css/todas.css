@@ -1,0 +1,33 @@
+body {
+  background-color: #F4F4EC; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #546429 !important; }
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #262e13 !important; }
+
+.active {
+  color: #171c0b !important; }
+
+.bg-secondary {
+  background-color: #e2e2df !important; }
+
+.blogs:hover {
+  text-decoration: none; }
+
+.btn-primary {
+  background-color: #546429 !important;
+  color: white !important;
+  border: 1px solid #546429; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #262e13;
+  border-color: #546429;
+  -webkit-box-shadow: 1px 1px 10px #829a3f;
+          box-shadow: 1px 1px 10px #829a3f; }
+
+/*# sourceMappingURL=todas.css.map */
